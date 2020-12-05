@@ -75,7 +75,7 @@
 - [ ] The instances created by ECS do not have patches that need to be applied; however you should make sure your containers contain any important security updates,
 - [ ] Refresh the cluster with instances built from the latest ECS AML
 - [ ] ECS clusters do not use EC2 instances.
-- [ ] You should not directly manipulate the EC2 instances created by ECS. AWS will automatically update these instances.
+- [X] You should not directly manipulate the EC2 instances created by ECS. AWS will automatically update these instances.
 
 #### Q12. What in-memory caching server is not supported by ElastiCache?
 
